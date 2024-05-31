@@ -51,3 +51,10 @@ a {
   left: auto;
   right: 0;
 }
+
+.copyright {
+  text-align: center;
+  padding: 2.5vh 0;
+  color: #0b0101;
+  font-size: 1rem;
+}

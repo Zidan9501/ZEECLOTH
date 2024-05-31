@@ -6,7 +6,8 @@
   "scripts": {
     "build": "cd backend && npm install && npm run build  && cd ../frontend && npm install && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "TG_ALLOW_MIXED=ALLOW  node backend/build/index.js"
+    "start": "TG_ALLOW_MIXED=ALLOW  node backend/build/index.js",
+    "render":"https://api.render.com/deploy/srv-cpcum8674orc73f6e77g?key=PxzlI1cPJXA"
   },
   "keywords": [],
   "author": "",

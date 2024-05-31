@@ -32,7 +32,7 @@ function App() {
     localStorage.removeItem("cartItems");
     localStorage.removeItem("shippingAddress");
     localStorage.removeItem("paymentMethod");
-     // Omdirigera till hemsidan
+    // Omdirigera till hemsidan
     window.location.href = "/";
   };
   return (
@@ -86,7 +86,8 @@ function App() {
         </Container>
       </main>
       <footer>
-        <div className="text-center">All right reservra</div>
+        <p className="copyright">2024 - MangoDB - react Query
+ - express - Node.js</p>
       </footer>
     </div>
   );
